@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+	background-color: wheat;
+	alignment-adjust: central;
+}
+.container-main {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+header {
+	/*border: medium solid greenyellow;*/
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	/*background-color: greenyellow;*/
+	background: url(resource/images/banner2.jpg);
+	background-size:cover;
+}
+#welcome {
+	border: medium solid greenyellow;
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	background-color: greenyellow;
+}
+#banner {
+	font-size: 34px;
+	font-style: bold;
+	color: black;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	font-family: 'Old Standard TT', serif;
+}
+h3 {
+    font-size: 38px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	#banner{
+	font-size: 26px;
+	color: white;
+	}
+}
+

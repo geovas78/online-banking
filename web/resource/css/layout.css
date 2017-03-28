@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+    max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+    width:100%;
+}
+
+/*
+        Dreamweaver Fluid Grid Properties
+        ----------------------------------
+        dw-num-cols-mobile:		5;
+        dw-num-cols-tablet:		8;
+        dw-num-cols-desktop:	12;
+        dw-gutter-percentage:	15;
+        
+        Inspiration from "Responsive Web Design" by Ethan Marcotte 
+        http://www.alistapart.com/articles/responsive-web-design
+        
+        and Golden Grid System by Joni Korpi
+        http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 88.626%;
+    padding-left: 1.1869%;
+    padding-right: 1.1869%;
+}
+#LayoutDiv1 {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#header {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+}
+#welcome {
+    clear: none;
+    float: left;
+    margin-left: 2.6785%;
+    width: 17.8571%;
+    display: block;
+}
+#banner {
+    clear: none;
+    float: left;
+    margin-left: 2.6785%;
+    width: 58.9285%;
+    display: block;
+}
+#main-page-content {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#navigation {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#details-holder {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#card {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#pd {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#bal {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#info-box {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#commercials {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    background-image: url(../images/bg2.jpg);
+    background-repeat: repeat;
+}
+#first-advert {
+    clear: none;
+    float: left;
+    margin-left: 2.6785%;
+    width: 38.3928%;
+    display: block;
+}
+#second-advert {
+    clear: none;
+    float: left;
+    margin-left: 2.6785%;
+    width: 38.3928%;
+    display: block;
+}
+#footer {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+    .gridContainer {
+        width: 91.4836%;
+        padding-left: 0.7581%;
+        padding-right: 0.7581%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #header {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #welcome {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 23.7569%;
+        display: block;
+    }
+    #banner {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 49.1712%;
+        display: block;
+    }
+    #main-page-content {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #navigation {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 23.7569%;
+        display: block;
+    }
+    #details-holder {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 61.8784%;
+        display: block;
+        background: url(../images/bg4.jpg);
+        background-repeat: repeat;
+    }
+    #card {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 49.1712%;
+        display: block;
+    }
+    #pd {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 61.8784%;
+        display: block;
+    }
+    #bal {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 61.8784%;
+        display: block;
+    }
+    #info-box {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 74.5856%;
+        display: block;
+    }
+    #commercials {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #first-advert {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 23.7569%;
+        display: block;
+    }
+    #second-advert {
+        clear: none;
+        float: left;
+        margin-left: 1.6574%;
+        width: 61.8784%;
+        display: block;
+    }
+    #footer {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+    .gridContainer {
+        width: 89.0217%;
+        max-width: 1232px;
+        padding-left: 0.4891%;
+        padding-right: 0.4891%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #header {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #welcome {
+        clear: none;
+        float: left;
+        margin-left: 9.5238%;
+        width: 15.7509%;
+        display: block;
+    }
+    #banner {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 66.3003%;
+        display: block;
+    }
+    #main-page-content {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #navigation {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 91.575%;
+        display: block;
+    }
+    #details-holder {
+        clear: both;
+        float: left;
+        margin-left: 8.4249%;
+        width: 66.3003%;
+        display: block;
+        background-image: url(../images/bg4.jpg);
+    }
+    #card {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 91.575%;
+        display: block;
+    }
+    #pd {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 91.575%;
+        display: block;
+    }
+    #bal {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 91.575%;
+        display: block;
+    }
+    #info-box {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 91.575%;
+        display: block;
+    }
+    #commercials {
+        clear: none;
+        float: left;
+        margin-left: 1.0989%;
+        width: 24.1758%;
+        display: block;
+        background-image: url(../images/bg2.jpg);
+    }
+    #first-advert {
+        clear: none;
+        float: left;
+        margin-left: 17.9487%;
+        width: 41.0256%;
+        display: block;
+    }
+    #second-advert {
+        clear: both;
+        float: left;
+        margin-left: 16.8498%;
+        width: 41.0256%;
+        display: block;
+    }
+    #footer {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+}

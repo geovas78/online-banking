@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+	background-color: wheat;
+	alignment-adjust: central;
+}
+.main container {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+header {
+	/*border: medium solid greenyellow;*/
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	/*background-color: greenyellow;*/
+	background: url(../images/banner2.jpg);
+	background-size:cover;
+}
+#welcome {
+	border: medium solid greenyellow;
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	background-color: greenyellow;
+}
+#banner {
+	font-size: 34px;
+	font-style: bold;
+	color: black;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	font-family: 'Old Standard TT', serif;
+}
+.side-info {
+	float: right;
+	width: 180px;
+	background-color: #BABABA;
+	padding-bottom: 10px;
+	margin-top: 25px;
+}
+.content-main h3 {
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+}
+hr {
+	border-color:#060;
+}
+
+.sign-up {
+	text-align:justify;
+	color:#03F;
+	font-size:24px;
+}
+
+#online-banking-banner {
+	margin-top: 25px;
+}
+
+#img-signup{
+	float:right;
+}
+
+
+form {
+	font-size: 18px;
+	border: thin solid black;
+	margin: 5%;
+}
+#legend {
+	margin: 5%;
+	margin-bottom: 10%;
+}
+footer {
+	height: 75px;
+	border: medium solid greenyellow;
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 20px 20px;
+	background-color: greenyellow;
+}
+
+.foot-p {
+	margin-top:15px;
+}
+
+p {
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+}
+
+#button {
+	margin-top:5%;
+}
+
+@media screen and (max-width: 768px){
+	#banner{
+	font-size: 26px;
+	color: white;
+	}
+}
